@@ -1,0 +1,21 @@
+application:
+  name: "linux-container-tutorial"
+  version: "0.5"
+  description: "Linux Container Tutorial"
+
+linux:
+  containers:
+    my-python-app:
+      build:
+        directory: src/linux/my-python-app/.
+        dockerfile: Dockerfile
+      image: my-python-app:latest
+      container_name: my-python-app
+      command: python app.py
+      ports:
+        - "8000:8000"  # Map a port to serve up HTTP to the local device
+      volumes:
+        - .:/app  # Optional: bind mount local code for development
+      test: podman-compose up
+      build: podman build -t my-python-app:latest .
+      run: podman-compose -f podman-compose.yaml up #note the compose file is auto generated from this description
