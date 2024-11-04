@@ -12,9 +12,12 @@ integrations: []
 hardwareDependencies:
   - name: Linux board - Tachyon (QCx6490)
     link: https://www.kickstarter.com/projects/particle-iot/tachyon-powerful-5g-single-board-computer-w-ai-accelerator
+    tags: [ "Tachyon", "QCx6490", "QCOM RB3Gen2" ]
   - name: Linux board - Raspberry Pi
     link: https://www.raspberrypi.org/
+    tags: [ "Raspberry Pi 2/3/4/5"]
   - name: Linux board - nVidia Orin/Jetson
     link: https://developer.nvidia.com/embedded/jetson-modules
+    tags: [ "nVidia Orin", "nVidia Jetson" ]
 description: |
   The Linux Container Tutorial guides users through packaging an application for Linux environments using container technology. This tutorial is designed to work across several Linux-based platforms, including the Tachyon (QCx6490-based), Raspberry Pi, and Nvidia Orin/Jetson boards, demonstrating a portable and reproducible deployment method.
