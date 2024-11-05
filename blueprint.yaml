@@ -2,7 +2,7 @@ id: particle/linux-container-tutorial
 category: tutorial
 icon: particle.png
 gitrepo: https://github.com/particle-iot/linux-container-tutorial
-name: "Linux Container Tutorial"
+name: "Linux container tutorial"
 shortDescription: Tutorial on packaging an application for deployment on Linux using containers.
 version: 1.0.0
 models: []
