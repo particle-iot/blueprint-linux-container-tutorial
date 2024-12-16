@@ -13,6 +13,7 @@ models: []
 language: [ "Python" ]
 cloudServices: []
 integrations: []
+supportedDevices: []
 hardwareDependencies:
   - name: Linux board - Tachyon (QCx6490)
     link: https://www.kickstarter.com/projects/particle-iot/tachyon-powerful-5g-single-board-computer-w-ai-accelerator
