@@ -1,9 +1,9 @@
 slug: particle-linux-container-tutorial
-type: tutorial
+type: Tutorial
 category: "Getting started"
-expertiseLevel: "beginner"
+expertiseLevel: "Beginner"
 tags: ["Tachyon", "QCOM RB3Gen2","Raspberry Pi"]
-icon: assets/particle-logo.svg
+icon: assets/linux-container-tutorial.svg
 gitrepo: https://github.com/particle-iot/linux-container-tutorial
 name: "Linux container tutorial"
 shortDescription: Tutorial on packaging an application for deployment on Linux using containers.
